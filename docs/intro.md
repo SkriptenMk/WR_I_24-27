@@ -1,7 +1,8 @@
 # Unterlagen für den WR-Unterricht
 
 In diesem Repository sollen ergänzende Unterlagen für das Fach WR in der Klasse
-1I zusammengetragen werden.
+1I zusammengetragen werden. Die bisherigen Unterlagen sind
+[hier verlinkt](https://wr-i-24-27.github.io/Skript/).
 
 ## Programm
 
