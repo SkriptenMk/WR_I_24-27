@@ -12,6 +12,12 @@ parts:
       - file: vwl/01.md
     - caption: Recht
       chapters:
+      - file: recht/personenrecht/einfuehrung.md
+        title: Personenrecht
+        sections:
+        - file: recht/personenrecht/natuerliche_personen.md
+        - file: recht/personenrecht/handlungsfaehigkeit.md
+        - file: recht/personenrecht/juristische_personen.md
       - file: recht/vertragsrecht/obligationen_entstehung.md
         title: Vertragsrecht
         sections:
