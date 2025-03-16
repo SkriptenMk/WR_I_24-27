@@ -1,7 +1,7 @@
-# Ergänzende Unterlagen für den Unterricht im Fach WR
+# Unterlagen für den WR-Unterricht
 
-In diesem Repository sollen ergänzende Unterlagen für das Fach WR
-zusammengetragen werden.
+In diesem Repository sollen ergänzende Unterlagen für das Fach WR in der Klasse
+1I zusammengetragen werden.
 
 ## Programm
 
@@ -54,9 +54,12 @@ Ich erwarte, dass Sie auf GitHub eine kurze Zusammenfassung zu jeder Lektion
 verfassen (mindestens ein Commit pro Lektion). Im Gegenzug können Sie via
 PullRequest eine Beurteilung Ihrer Zusammenfassung verlangen. Damit können Sie
 auf die jeweils folgende Prüfung eine Punktegutschrift erhalten. Die Gutschrift
-ist allerdings auf ein Maximum von einer Note beschränkt.
-[Hier](anleitungen/github_notebook.md) finden Sie eine kurze Anleitung mit den
-Auflagen zum Erstellen der Zusammenfassungen.
+ist allerdings auf ein Maximum von einer Note beschränkt. Ausserdem können Sie
+Ihre Note verbessern, indem Sie konstruktive Kritik an den Unterlagen
+einbringen. Dazu erstellen Sie ein mir zugewiesenes Issue (der Zugang findet
+sich unter dem GitHub-Logo
+![](octocat_klein.png) 
+in der Kopfzeile).
 
 Falls jemand eine persönliche Besprechung wünscht, [kann er sich hier für
 eine Sprechstunde anmelden](https://calendar.app.google/kPthfpWed3uPP1cC6).

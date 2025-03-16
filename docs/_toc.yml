@@ -3,3 +3,18 @@
 
 format: jb-book
 root: intro.md
+parts:
+    - caption: BWL
+      chapters:
+      - file: bwl/01.md
+    - caption: VWL
+      chapters:
+      - file: vwl/01.md
+    - caption: Recht
+      chapters:
+      - file: recht/01.md
+        sections:
+        - file: recht/vertragsrecht/obligationen_entstehung.md
+        - file: recht/vertragsrecht/vertragsabschluss.md
+        - file: recht/vertragsrecht/gewaehrleistung.md
+        - file: recht/vertragsrecht/verzug.md
