@@ -6,7 +6,10 @@ root: intro.md
 parts:
     - caption: BWL
       chapters:
-      - file: bwl/01.md
+      - file: organisation/organigramm.md
+        title: Aufbauorganisation
+        sections:
+        - file: organisation/aufgaben.ipynb
     - caption: VWL
       chapters:
       - file: vwl/01.md
