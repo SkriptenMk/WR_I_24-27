@@ -10,6 +10,9 @@ parts:
         title: Aufbauorganisation
         sections:
         - file: organisation/aufgaben.ipynb
+          title: Aufgaben
+      - file: organisation/ablauforganisation.md
+        title: Ablauforganisation
     - caption: VWL
       chapters:
       - file: vwl/01.md
