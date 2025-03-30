@@ -6,10 +6,16 @@ root: intro.md
 parts:
     - caption: BWL
       chapters:
-      - file: bwl/01.md
-    - caption: VWL
-      chapters:
-      - file: vwl/01.md
+      - file: organisation/organigramm.md
+        title: Aufbauorganisation
+        sections:
+        - file: organisation/aufgaben.ipynb
+          title: Aufgaben
+      - file: organisation/ablauforganisation.md
+        title: Ablauforganisation
+        sections:
+        - file: organisation/250331/aufgaben.ipynb
+          title: Aufgaben
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
