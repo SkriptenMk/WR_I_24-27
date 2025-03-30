@@ -46,7 +46,17 @@
           ->,
         }
     }
-\begin{tikzpicture}[show background grid]
+\begin{tikzpicture}%[show background grid]
+    \draw[dashed] (-.75,-.75) -- (30.25,-.75);
+    \draw[dashed] (-.75,.75) -- (30.25,.75);
+    \draw[dashed] (-.75,2.25) -- (30.25,2.25);
+    \draw[dashed] (-.75,3.75) -- (30.25,3.75);
+    \draw[dashed] (-.75,5.25) -- (30.25,5.25);
+    \draw[dashed] (-.75,6.75) -- (30.25,6.75);
+    \draw[dashed] (-.75,8.25) -- (30.25,8.25);
+    \draw[dashed] (-.75,9.75) -- (30.25,9.75);
+    \draw[dashed] (-.75,11.25) -- (30.25,11.25);
+
     \node[bahn] (S)   at (0,0)    {Sport};
     \node[bahn] (GuP) at (0,1.5)  {GuP};
     \node[bahn] (WR)  at (0,3)    {WR};
@@ -88,19 +98,19 @@
     \node[fach, right= 26cm of S.center] (u) {};
     \node[fach, right= 0mm of u] (v) {};
 
-    \draw (b) to[lesson-connection] (c);
-    \draw (d) to[lesson-connection] (e);
-    \draw[rounded corners=2mm] (e) -- ++ (0.5,0) |- (f);
-    \draw (g) to[lesson-connection] (h);
-    \draw (h) to[lesson-connection] (i);
-    \draw (i) to[lesson-connection] (j);
-    \draw (k) to[lesson-connection] (l);
-    \draw[rounded corners=2mm] (m) -- ++ (0.5,0) |- (n);
-    \draw (n) to[lesson-connection] (o);
-    \draw (o) to[lesson-connection] (p);
-    \draw (q) to[lesson-connection] (r);
-    \draw[rounded corners=2mm] (r) -- ++ (0.5,0) |- (s);
-    \draw (t) to[lesson-connection] (u);
+    \draw[->] (b) to[lesson-connection] (c);
+    \draw[->] (d) to[lesson-connection] (e);
+    \draw[rounded corners=2mm, ->] (e) -- ++ (0.5,0) |- (f);
+    \draw[->] (g) to[lesson-connection] (h);
+    \draw[->] (h) to[lesson-connection] (i);
+    \draw[->] (i) to[lesson-connection] (j);
+    \draw[->] (k) to[lesson-connection] (l);
+    \draw[rounded corners=2mm, ->] (m) -- ++ (0.5,0) |- (n);
+    \draw[->] (n) to[lesson-connection] (o);
+    \draw[->] (o) to[lesson-connection] (p);
+    \draw[->] (q) to[lesson-connection] (r);
+    \draw[rounded corners=2mm, ->] (r) -- ++ (0.5,0) |- (s);
+    \draw[->] (t) to[lesson-connection] (u);
 
 
 \end{tikzpicture}
