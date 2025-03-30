@@ -13,9 +13,9 @@ parts:
           title: Aufgaben
       - file: organisation/ablauforganisation.md
         title: Ablauforganisation
-    - caption: VWL
-      chapters:
-      - file: vwl/01.md
+        sections:
+        - file: organisation/250331/aufgaben.ipynb
+          title: Aufgaben
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md

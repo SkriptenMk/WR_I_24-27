@@ -44,6 +44,32 @@
             -- (\tikztotarget)           % Zum Zielpunkt
             },
           ->,
+        },
+    lesson-connection2/.style={
+        rounded corners=2mm,
+        to path={
+            let \p1 = ($(\tikztotarget.center)-(\tikztostart.center)$),
+                \n1 = {veclen(\x1,\y1)} in
+            -- ++(0.5,0)                  % Kleine Strecke nach rechts
+            -- ++(0,0.75*\y1)            % 3/4 der Vertikaldistanz
+            -- ++(-1,0)                   % Doppelte Strecke nach links
+            -- ++(0,0.25*\y1)            % 1/4 der Vertikaldistanz
+            -- ++(.5,0)                   % Zurück nach rechts
+            -- (\tikztotarget)            % Zum Zielpunkt
+            },
+            },
+    lesson-connection3/.style={
+        rounded corners=2mm,
+        to path={
+            let \p1 = ($(\tikztotarget.center)-(\tikztostart.center)$),
+                \n1 = {veclen(\x1,\y1)} in
+            -- ++(0.5,0)                  % Kleine Strecke nach rechts
+            -- ++(0,0.25*\y1)            % 3/4 der Vertikaldistanz
+            -- ++(-1,0)                   % Doppelte Strecke nach links
+            -- ++(0,0.75*\y1)            % 1/4 der Vertikaldistanz
+            -- ++(.5,0)                   % Zurück nach rechts
+            -- (\tikztotarget)            % Zum Zielpunkt
+            },
         }
     }
 \begin{tikzpicture}%[show background grid]
@@ -104,10 +130,10 @@
     \draw[->] (g) to[lesson-connection] (h);
     \draw[->] (h) to[lesson-connection] (i);
     \draw[->] (i) to[lesson-connection] (j);
-    \draw[->] (k) to[lesson-connection] (l);
+    \draw[->] (k) to[lesson-connection2] (l);
     \draw[rounded corners=2mm, ->] (m) -- ++ (0.5,0) |- (n);
     \draw[->] (n) to[lesson-connection] (o);
-    \draw[->] (o) to[lesson-connection] (p);
+    \draw[->] (o) to[lesson-connection3] (p);
     \draw[->] (q) to[lesson-connection] (r);
     \draw[rounded corners=2mm, ->] (r) -- ++ (0.5,0) |- (s);
     \draw[->] (t) to[lesson-connection] (u);
