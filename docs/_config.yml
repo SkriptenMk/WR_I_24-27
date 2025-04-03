@@ -38,6 +38,11 @@ parse:
 
 sphinx:
   config:
+    html_thme_options:
+      footer_author_prefix: "Verfasser: "
+      author:
+        de: "Verfasser: Jacques Mock Schindler"
+        en: "Author: Jacques Mock Schindler"
     templates_path: ["_templates"]
     html_show_copyright: false
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
