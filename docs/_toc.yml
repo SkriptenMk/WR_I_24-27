@@ -16,6 +16,8 @@ parts:
         sections:
         - file: organisation/250331/aufgaben.ipynb
           title: Aufgaben
+      - file: organisation/250403/prozesse.md
+        title: Prozessdarstellung mit TikZ
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
