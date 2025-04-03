@@ -29,7 +29,6 @@ Flussdiagramms mit Hilfe von TikZ.
 \begin{tikzpicture}[
     % Definition der verschiedenen Knotentypen (Shapes) für das Flussdiagramm
     % Jeder Typ entspricht einem Standard-Symbol in Flussdiagrammen
-    
     % Start/Ende-Knoten: Abgerundetes Rechteck
     end/.style={
         draw,                    % Zeichnet den Rahmen
@@ -38,7 +37,6 @@ Flussdiagramms mit Hilfe von TikZ.
         minimum width=2cm,       % Legt Mindestbreite fest
         align=center             % Zentriert den Text im Knoten
     },
-    
     % Eingabe/Ausgabe-Knoten: Trapez
     io/.style={
         draw,
@@ -48,7 +46,6 @@ Flussdiagramms mit Hilfe von TikZ.
         minimum width=2cm,
         align=center
     },
-    
     % Prozess-Knoten: Rechteck
     process/.style={
         draw,
@@ -56,7 +53,6 @@ Flussdiagramms mit Hilfe von TikZ.
         minimum width=2cm,
         align=center
     },
-    
     % Entscheidungs-Knoten: Raute
     decision/.style={
         draw,
@@ -111,3 +107,7 @@ erzeugt werden soll, geschieht das mit den beiden Befehlen:
 latex dateiname.tex
 dvisvgm --no-fonts dateiname.dvi
 ```
+
+Das Diagramm aus obigem Listing sieht wie folgt aus:
+
+![Flussdiagramm](bsp.svg)
