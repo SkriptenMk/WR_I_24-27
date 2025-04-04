@@ -12,7 +12,12 @@ bestehen.
 
 Welche der beiden Varianten gewählt wird, hängt von der Art des Projektes ab.
 Wenn es darum geht, einem Kunden ein Lieferdatum zu nennen, kann vom Zeitpunkt
-der Auftragserteilung (Startzeitpunkt) aus gerechnet werden. Wenn es darum geht, einen Zeitplan
-für eine Abschlussarbeit mit festem Abgabetermin zu erstellen, muss vom
-Abgabetermin (Endzeitpunkt) her gerechnet werden.
+der Auftragserteilung (Startzeitpunkt) aus gerechnet werden. Wenn es darum geht,
+einen Zeitplan für eine Abschlussarbeit mit festem Abgabetermin zu erstellen,
+muss vom Abgabetermin (Endzeitpunkt) her gerechnet werden.
+
+In jedem Fall ist die Zeitplanung eine permanente Aufgabe. Der Zeitplan muss
+immer wieder überprüft und an veränderte Gegebenheiten angepasst werden. Das
+kann sein, dass eine Teilaufgabe in kürzerer Zeit als geplant erledigt werden
+konnte, oder dass es zu Verzögerungen gekommen ist.
 
