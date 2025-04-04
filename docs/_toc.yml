@@ -18,6 +18,7 @@ parts:
           title: Aufgaben
       - file: organisation/250403/prozesse.md
         title: Prozessdarstellung mit TikZ
+      - file: organisation/250407/zeitplan.md
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
