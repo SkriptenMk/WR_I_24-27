@@ -1,6 +1,6 @@
 # Scrum - Eine illustrierte Einführung
 
-## Von Wasserfall zu Agil
+## Von Wasserfall zu Agile
 
 Traditionellerweise werden Projekte nach dem Wasserfall-Modell geplant und umgesetzt. In diesem Modell wird das Projekt in die Phasen Problemanalyse, Planung, Umsetzung und Evaluation unterteilt. Diese Phasen werden eine nach der anderen durchlaufen. Diese Vorgehensweise hat den Nachteil, dass es schwierig ist, auf Änderungen zu reagieren. Dies ist insbesondere in der Softwareentwicklung ein Problem. Oft erkennen Kunden erst während der Entwicklung, was für Anforderungen sie an das Produkt haben.
 
@@ -19,29 +19,32 @@ Diese Problematik hat im Software Engineering zu Agilen Methoden geführt. Die K
 >indem wir es selbst tun und anderen dabei helfen.
 >Durch diese Tätigkeit haben wir diese Werte zu schätzen gelernt:
 >
->**Individuen und Interaktionen** mehr als Prozesse und Werkzeuge
->**Funktionierende Software** mehr als umfassende Dokumentation
->**Zusammenarbeit mit dem Kunden** mehr als Vertragsverhandlung
->**Reagieren auf Veränderung** mehr als das Befolgen eines Plans
+>**Individuen und Interaktionen** mehr als Prozesse und Werkzeuge  
+>**Funktionierende Software** mehr als umfassende Dokumentation  
+>**Zusammenarbeit mit dem Kunden** mehr als Vertragsverhandlung  
+>**Reagieren auf Veränderung** mehr als das Befolgen eines Plans  
 >
->Das heißt, obwohl wir die Werte auf der rechten Seite wichtig finden,
+>Das heisst, obwohl wir die Werte auf der rechten Seite wichtig finden,
 >schätzen wir die Werte auf der linken Seite höher ein.[^1]
 
 
-Das Agile Manifest wurde 2001 von 17 Softwareentwicklern verfasst und hat seitdem die Art und Weise, wie Software entwickelt wird, grundlegend verändert. Neben den vier Werten definiert das Agile Manifest auch zwölf Prinzipien, die agile Teams leiten sollen:
+Das Agile Manifest wurde 2001 von 17 Softwareentwicklern verfasst und hat
+seitdem die Art und Weise, wie Software entwickelt wird, grundlegend verändert.
+Neben den vier Werten definiert das Agile Manifest auch zwölf Prinzipien, die
+agile Teams leiten sollen: 
 
 1. Kundenzufriedenheit durch frühe und kontinuierliche Auslieferung von wertvoller Software
-2. Willkommensheißen von Anforderungsänderungen, selbst spät in der Entwicklung
+2. Willkommenheissen von Anforderungsänderungen, selbst spät in der Entwicklung
 3. Häufige Auslieferung funktionierender Software (Wochen statt Monate)
 4. Tägliche Zusammenarbeit von Fachexperten und Entwicklern
 5. Aufbau von Projekten um motivierte Individuen
 6. Bevorzugung von direkter Kommunikation
-7. Funktionsfähige Software als wichtigstes Fortschrittsmaß
+7. Funktionsfähige Software als wichtigstes Fortschrittsmass
 8. Förderung nachhaltiger Entwicklung durch gleichbleibendes Tempo
 9. Kontinuierliche Aufmerksamkeit für technische Exzellenz und gutes Design
 10. Einfachheit – die Kunst, die Menge nicht getaner Arbeit zu maximieren
 11. Selbstorganisierende Teams
-12. Regelmäßige Reflexion und Anpassung der Arbeitsweise
+12. Regelmässige Reflexion und Anpassung der Arbeitsweise
 
 ## Scrum
 
@@ -79,7 +82,10 @@ Die grundlegenden Prinzipien von Scrum sind:
 
 ### Ablauf eines Sprints
 
-Ein Sprint ist ein Zeitraum von 1 bis 4 Wochen, in dem ein Teil des Projektes umgesetzt wird. Am Ende eines Sprints steht eine funktionsfähige Version des Produktes. Der Sprint kann in vier Elemente unterteilt werden:
+Ein Sprint ist ein Zeitraum von 1 bis 4 Wochen, in dem ein Teil des Projektes
+umgesetzt wird. Am Ende eines Sprints steht eine funktionsfähige Version des
+Produktes. Der Sprint kann in vier Elemente unterteilt werden (die vier blauen
+Kreise in der Grafik):
 
 ![Der Sprint-Zyklus](scrum-sprint-cycle.svg)
 
@@ -88,7 +94,7 @@ Ein Sprint ist ein Zeitraum von 1 bis 4 Wochen, in dem ein Teil des Projektes um
   - Ergebnis: Sprint-Ziel und Sprint Backlog
   - Teilnehmer: Scrum Master, Product Owner, Entwicklungsteam
 
-- **Sprint**: In der Sprint-Phase wird das Produkt umgesetzt. Das Team arbeitet an den Aufgaben, die in der Sprint-Planung festgelegt wurden. Am Ende des Sprints steht eine funktionsfähige Version des Produktes.
+- **Sprint**: In der Sprint-Phase wird das Sprint Backlog abgearbeitet. Das Team arbeitet an den Aufgaben, die in der Sprint-Planung festgelegt wurden. Am Ende des Sprints steht eine funktionsfähige Version des Produktes.
   - Zeitrahmen: 1-4 Wochen (konstante Länge)
   - Fokus auf das Sprint-Ziel
   - Keine Änderungen, die das Sprint-Ziel gefährden
@@ -113,7 +119,7 @@ Ein Sprint ist ein Zeitraum von 1 bis 4 Wochen, in dem ein Teil des Projektes um
     - Drei Hauptfragen:
       1. Was lief gut im Sprint?
       2. Was könnte verbessert werden?
-      3. Welche Maßnahmen werden wir im nächsten Sprint umsetzen?
+      3. Welche Massnahmen werden wir im nächsten Sprint umsetzen?
 
 
 ### Die Rollen im Scrum-Prozess
@@ -131,7 +137,7 @@ Im Scrum-Framework gibt es drei klar definierte Rollen, die zusammen das Scrum-T
     - Abnahme der fertigen Funktionalitäten
     - Entscheidung über Release-Termine und -Inhalte
 
-- **Scrum Master**: Der Scrum Master fungiert als Servant Leader für das Team und die Organisation.  
+- **Scrum Master**: Der Scrum Master fungiert als *Servant Leader* für das Team und die Organisation.  
   Seine Hauptaufgaben umfassen:
   - Moderation der Scrum-Events (Daily Scrum, Sprint Planning, Review, Retrospektive)
   - Beseitigung von Hindernissen, die das Team bei der Arbeit behindern
@@ -165,7 +171,7 @@ User Stories sind ein zentrales Element in Scrum und dienen dazu, Anforderungen 
 
 Zur Abschätzung des Arbeitsaufwands für User Stories werden häufig **Story Points** verwendet:
 
-- Relative Maßeinheit für Komplexität, Aufwand und Risiko
+- Relative Masseinheit für Komplexität, Aufwand und Risiko
 - Werden oft mit Fibonacci-Zahlen ausgedrückt (1, 2, 3, 5, 8, 13, 21...)
 - Vorteile:
   - Vermeidet die Probleme von Zeitschätzungen
@@ -199,19 +205,19 @@ Zur Überwachung des Projektfortschritts können verschiedene Werkzeuge eingeset
 
 Scrum bietet zahlreiche Vorteile gegenüber traditionellen Entwicklungsmethoden:
 
-1. **Erhöhte Transparenz**: Durch regelmäßige Meetings und sichtbare Artefakte ist der Projektfortschritt für alle Beteiligten klar erkennbar.
+1. **Erhöhte Transparenz**: Durch regelmässige Meetings und sichtbare Artefakte ist der Projektfortschritt für alle Beteiligten klar erkennbar.
 
-2. **Schnelleres Feedback**: Durch die regelmäßige Auslieferung funktionierender Software können Kunden frühzeitig Feedback geben.
+2. **Schnelleres Feedback**: Durch die regelmässige Auslieferung funktionierender Software können Kunden frühzeitig Feedback geben.
 
 3. **Höhere Qualität**: Kontinuierliche Integration, häufige Tests und die Definition of Done fördern die Qualität des Produkts.
 
 4. **Bessere Vorhersagbarkeit**: Die Velocity ermöglicht genauere Vorhersagen über den Projektfortschritt.
 
-5. **Höhere Motivation**: Selbstorganisation und regelmäßige Erfolge steigern die Motivation im Team.
+5. **Höhere Motivation**: Selbstorganisation und regelmässige Erfolge steigern die Motivation im Team.
 
 6. **Risikominimierung**: Probleme werden frühzeitig erkannt und können behandelt werden, bevor sie kritisch werden.
 
-7. **Anpassungsfähigkeit**: Änderungen können ohne großen Aufwand in das Projekt integriert werden.
+7. **Anpassungsfähigkeit**: Änderungen können ohne grossen Aufwand in das Projekt integriert werden.
 
 ### Herausforderungen bei der Einführung von Scrum
 
@@ -219,15 +225,11 @@ Die Umstellung auf Scrum kann mit verschiedenen Herausforderungen verbunden sein
 
 1. **Kultureller Wandel**: Agile Methoden erfordern oft einen Kulturwandel in der Organisation.
 
-2. **Widerstand gegen Veränderung**: Mitarbeiter können der Umstellung skeptisch gegenüberstehen.
+2. **Fehlendes Verständnis**: Scrum wird manchmal falsch verstanden oder unvollständig implementiert.
 
-3. **Fehlendes Verständnis**: Scrum wird manchmal falsch verstanden oder unvollständig implementiert.
+3. **Unklare Rollen**: Die Rollen und Verantwortlichkeiten in Scrum müssen klar definiert sein.
 
-4. **Unklare Rollen**: Die Rollen und Verantwortlichkeiten in Scrum müssen klar definiert sein.
-
-5. **Technische Schulden**: Agile Methoden können zu technischen Schulden führen, wenn sie nicht richtig umgesetzt werden.
-
-6. **Integration mit bestehenden Strukturen**: Die Integration von Scrum in bestehende Unternehmensstrukturen kann herausfordernd sein.
+4. **Integration mit bestehenden Strukturen**: Die Integration von Scrum in bestehende Unternehmensstrukturen kann herausfordernd sein.
 
 
 
