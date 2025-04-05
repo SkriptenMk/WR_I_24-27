@@ -19,7 +19,8 @@ parts:
       - file: organisation/250403/prozesse.md
         title: Prozessdarstellung mit TikZ
       - file: organisation/250407/zeitplan.md
-      - file: organisation/250407/scrum.md
+      - file: organisation/250407/scrum/scrum.md
+        title: Scrum
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
