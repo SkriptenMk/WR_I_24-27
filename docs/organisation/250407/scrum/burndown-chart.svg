@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <!-- Background -->
+  <rect width="900" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Sprint Burndown Chart</text>
+  
+  <!-- Chart area -->
+  <rect x="100" y="80" width="700" height="350" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="80" x2="100" y2="430" stroke="#333" stroke-width="2"/>
+  <!-- Y-axis ticks and labels -->
+  <line x1="95" y1="80" x2="100" y2="80" stroke="#333" stroke-width="1"/>
+  <text x="90" y="85" font-family="Arial" font-size="12" text-anchor="end" fill="#333">30</text>
+  
+  <line x1="95" y1="130" x2="100" y2="130" stroke="#333" stroke-width="1"/>
+  <text x="90" y="135" font-family="Arial" font-size="12" text-anchor="end" fill="#333">25</text>
+  
+  <line x1="95" y1="180" x2="100" y2="180" stroke="#333" stroke-width="1"/>
+  <text x="90" y="185" font-family="Arial" font-size="12" text-anchor="end" fill="#333">20</text>
+  
+  <line x1="95" y1="230" x2="100" y2="230" stroke="#333" stroke-width="1"/>
+  <text x="90" y="235" font-family="Arial" font-size="12" text-anchor="end" fill="#333">15</text>
+  
+  <line x1="95" y1="280" x2="100" y2="280" stroke="#333" stroke-width="1"/>
+  <text x="90" y="285" font-family="Arial" font-size="12" text-anchor="end" fill="#333">10</text>
+  
+  <line x1="95" y1="330" x2="100" y2="330" stroke="#333" stroke-width="1"/>
+  <text x="90" y="335" font-family="Arial" font-size="12" text-anchor="end" fill="#333">5</text>
+  
+  <line x1="95" y1="380" x2="100" y2="380" stroke="#333" stroke-width="1"/>
+  <text x="90" y="385" font-family="Arial" font-size="12" text-anchor="end" fill="#333">0</text>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="430" x2="800" y2="430" stroke="#333" stroke-width="2"/>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="100" y1="430" x2="100" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="100" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">0</text>
+  
+  <line x1="170" y1="430" x2="170" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="170" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">1</text>
+  
+  <line x1="240" y1="430" x2="240" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="240" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">2</text>
+  
+  <line x1="310" y1="430" x2="310" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="310" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">3</text>
+  
+  <line x1="380" y1="430" x2="380" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="380" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">4</text>
+  
+  <line x1="450" y1="430" x2="450" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="450" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">5</text>
+  
+  <line x1="520" y1="430" x2="520" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="520" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">6</text>
+  
+  <line x1="590" y1="430" x2="590" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="590" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">7</text>
+  
+  <line x1="660" y1="430" x2="660" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="660" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">8</text>
+  
+  <line x1="730" y1="430" x2="730" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="730" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">9</text>
+  
+  <line x1="800" y1="430" x2="800" y2="435" stroke="#333" stroke-width="1"/>
+  <text x="800" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">10</text>
+  
+  <!-- Axis labels -->
+  <text x="50" y="230" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333" transform="rotate(-90,50,230)">Story Points</text>
+  <text x="450" y="475" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Sprint Tage</text>
+  
+  <!-- Grid lines -->
+  <!-- Horizontal grid lines -->
+  <line x1="100" y1="130" x2="800" y2="130" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="180" x2="800" y2="180" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="230" x2="800" y2="230" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="280" x2="800" y2="280" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="330" x2="800" y2="330" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="380" x2="800" y2="380" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Vertical grid lines -->
+  <line x1="170" y1="80" x2="170" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="240" y1="80" x2="240" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="310" y1="80" x2="310" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="380" y1="80" x2="380" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="450" y1="80" x2="450" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="520" y1="80" x2="520" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="590" y1="80" x2="590" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="660" y1="80" x2="660" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="730" y1="80" x2="730" y2="430" stroke="#dee2e6" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Ideal burndown line -->
+  <line x1="100" y1="80" x2="800" y2="380" stroke="#007bff" stroke-width="2" stroke-dasharray="10,3"/>
+  <text x="450" y="190" font-family="Arial" font-size="14" fill="#007bff">Ideal Burndown</text>
+  
+  <!-- Actual burndown line -->
+  <polyline 
+    points="100,80 170,97 240,130 310,130 380,180 450,197 520,247 590,280 660,330 730,355 800,380" 
+    fill="none" 
+    stroke="#dc3545" 
+    stroke-width="3"/>
+  
+  <!-- Data points -->
+  <circle cx="100" cy="80" r="5" fill="#dc3545"/>
+  <circle cx="170" cy="97" r="5" fill="#dc3545"/>
+  <circle cx="240" cy="130" r="5" fill="#dc3545"/>
+  <circle cx="310" cy="130" r="5" fill="#dc3545"/>
+  <circle cx="380" cy="180" r="5" fill="#dc3545"/>
+  <circle cx="450" cy="197" r="5" fill="#dc3545"/>
+  <circle cx="520" cy="247" r="5" fill="#dc3545"/>
+  <circle cx="590" cy="280" r="5" fill="#dc3545"/>
+  <circle cx="660" cy="330" r="5" fill="#dc3545"/>
+  <circle cx="730" cy="355" r="5" fill="#dc3545"/>
+  <circle cx="800" cy="380" r="5" fill="#dc3545"/>
+  
+  <!-- Legend -->
+  <rect x="600" y="100" width="180" height="70" rx="5" ry="5" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  
+  <line x1="620" y1="125" x2="650" y2="125" stroke="#007bff" stroke-width="2" stroke-dasharray="10,3"/>
+  <text x="655" y="130" font-family="Arial" font-size="12" text-anchor="start" fill="#333">Ideal Burndown</text>
+  
+  <line x1="620" y1="155" x2="650" y2="155" stroke="#dc3545" stroke-width="3"/>
+  <circle cx="635" cy="155" r="4" fill="#dc3545"/>
+  <text x="655" y="160" font-family="Arial" font-size="12" text-anchor="start" fill="#333">Aktueller Fortschritt</text>
+</svg>
