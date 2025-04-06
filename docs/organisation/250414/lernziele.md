@@ -12,4 +12,5 @@ Ich erwarte, dass Sie in der Lage sind
 * die einzelnen Elemente von Scrum als Form des Agilen Projektmanagement
   zu beschreiben.
 
- 
+Für Fragen bezüglich der kommenden Prüfung stehe ich Ihnen im Kanal
+"Allgemein" des Teams "WR_I_24-27" zur verfügung. 
