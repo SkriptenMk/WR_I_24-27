@@ -26,16 +26,16 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 10.04.2025 | Organisation und Projektmanagement |
 | 14.04.2025 | Test (Kaufvertrag zweiter Teil & Organisation und Projektmanagement) |
 | 17.04.2025 | Marketing |
-| 05.05.2025 | Marketing |
-| 08.05.2025 | Marketing |
-| 12.05.2025 | Marketing |
-| 15.05.2025 | Marketing |
-| 19.05.2025 | Marketing |
-| 22.05.2025 | Marketing |
-| 26.05.2025 | Marketing |
-| 02.06.2025 | Marketing |
-| 05.06.2025 | Test (Marketing) |
-| 16.06.2025 | Mietrecht |
+| 05.05.2025 | Finanzierung |
+| 08.05.2025 | Finanzierung |
+| 12.05.2025 | Finanzierung |
+| 15.05.2025 | Finanzierung |
+| 19.05.2025 | Finanzierung |
+| 22.05.2025 | Finanzierung |
+| 26.05.2025 | Finanzierung |
+| 02.06.2025 | Finanzierung |
+| 05.06.2025 | Finanzierung |
+| 16.06.2025 | Test Finanzierung |
 | 19.06.2025 | Mietrecht |
 | 23.06.2025 | Mietrecht |
 | 26.06.2025 | Mietrecht |
