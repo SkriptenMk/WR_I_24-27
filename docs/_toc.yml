@@ -21,6 +21,8 @@ parts:
       - file: organisation/250407/zeitplan.md
       - file: organisation/250407/scrum/scrum.md
         title: Scrum
+      - file: organisation/250414/lernziele.md
+        title: Lernziele 14. April 25
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
