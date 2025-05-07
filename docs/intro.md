@@ -33,9 +33,9 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 | 19.05.2025 | Finanzierung |
 | 22.05.2025 | Finanzierung |
 | 26.05.2025 | Finanzierung |
-| 02.06.2025 | Finanzierung |
-| 05.06.2025 | Finanzierung |
-| 16.06.2025 | Test Finanzierung |
+| 02.06.2025 | Test Finanzierung |
+| 05.06.2025 | Mietrecht |
+| 16.06.2025 | Mietrecht |
 | 19.06.2025 | Mietrecht |
 | 23.06.2025 | Mietrecht |
 | 26.06.2025 | Mietrecht |
