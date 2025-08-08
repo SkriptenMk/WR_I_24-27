@@ -38,4 +38,5 @@ parts:
         - file: recht/vertragsrecht/gewaehrleistung.md
         - file: recht/vertragsrecht/verzug.md
     - caption: vergangene Semester
+      chapters:
       - file: archiv/programme.md
