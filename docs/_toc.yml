@@ -40,4 +40,3 @@ parts:
     - caption: vergangene Semester
       chapters:
       - file: archiv/fs_2025.md
-        title: Frühlingssemester 2025
