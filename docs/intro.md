@@ -2,7 +2,10 @@
 
 In diesem Repository sollen ergänzende Unterlagen für das Fach WR in der Klasse
 1I zusammengetragen werden. Die bisherigen Unterlagen sind
-[hier verlinkt](https://wr-i-24-27.github.io/Skript/).
+<a href="https://wr-i-24-27.github.io/Skript/">Hier finden Sie die
+Unterlagen aus dem ersten Semester</a>. Die Unterlagen für das zweite
+Semester
+sind hier zu finden.
 
 ## Programm
 
@@ -11,37 +14,35 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 
 | Datum | Thema |
 | ----- | ----- |
-| 17.02.2025 | Entstehung von Obligationen |
-| 24.02.2025 | Kaufvertrag: Vertragsabschluss |
-| 27.02.2025 | Kaufvertrag: Gewährleistung des Verkäufers |
-| 06.03.2025 | Kaufvertrag: Verzug |
-| 13.03.2025 | Test (Kaufvertrag erster Teil) |
-| 17.03.2025 | Kaufvertrag: Irrtum |
-| 20.03.2025 | Kaufvertrag |
-| 24.03.2025 | Kaufvertrag |
-| 27.03.2025 | Organisation und Projektmanagement |
-| 31.03.2025 | Organisation und Projektmanagement |
-| 03.04.2025 | Organisation und Projektmanagement |
-| 07.04.2025 | Organisation und Projektmanagement |
-| 10.04.2025 | Organisation und Projektmanagement |
-| 14.04.2025 | Test (Kaufvertrag zweiter Teil & Organisation und Projektmanagement) |
-| 17.04.2025 | Marketing |
-| 05.05.2025 | Finanzierung |
-| 08.05.2025 | Finanzierung |
-| 12.05.2025 | Finanzierung |
-| 15.05.2025 | Finanzierung |
-| 19.05.2025 | Finanzierung |
-| 22.05.2025 | Finanzierung |
-| 26.05.2025 | Finanzierung |
-| 02.06.2025 | Test Finanzierung |
-| 05.06.2025 | Mietrecht |
-| 16.06.2025 | Mietrecht |
-| 19.06.2025 | Mietrecht |
-| 23.06.2025 | Mietrecht |
-| 26.06.2025 | Mietrecht |
-| 30.06.2025 | Mietrecht |
-| 03.07.2025 | Mietrecht |
-| 10.07.2025 | Mietrecht |
+| 18.08.2025 | Marketing: ist mehr als Werbung |
+| 21.08.2025 | Marketing: Produktpolitik |
+| 25.08.2025 | Marketing: Produktlebenszyklus |
+| 28.08.2025 | Marketing: Konditionenpolitik |
+| 01.09.2025 | Marketing: Konditionenpolitik |
+| 04.09.2025 | Marketing: Kommunikationspolitik |
+| 08.09.2025 | Marketing: Kommunikationspolitik |
+| 11.09.2025 | Marketing: Werbung |
+| 15.09.2025 | Marketing: Absatzkanäle |
+| 18.09.2025 | Test |
+| 22.09.2025 | VWL: Womit befasst sich die Volkswirtschaftslehre? |
+| 25.09.2025 | VWL: Entscheide bei Knappheit |
+| 20.10.2025 | VWL: Die Nachfrage (Bedürfnisse) |
+| 23.10.2025 | VWL: Die Nachfragekurve |
+| 27.10.2025 | VWL: Verschiebungen der Nachfragekurve |
+| 30.10.2025 | VWL: Die Angebotskurve |
+| 03.11.2025 | VWL: Verschiebung der Angebotskurve |
+| 06.11.2025 | Test |
+| 10.11.2025 | VWL: Das Marktgleichgewicht |
+| 13.11.2025 | VWL: Veränderungen des Marktgleichgewichts |
+| 17.11.2025 | VWL: Die Elastizität |
+| 20.11.2025 | VWL: Die Gesamtwirtschaft |
+| 24.11.2025 | VWL: Ein einfaches makroökonomisches Konzept |
+| 27.11.2025 | VWL: Markt- oder Planwirtschaft |
+| 01.12.2025 | VWL: Preise und Effizienz |
+| 04.12.2025 | VWL: Was der Staat zum Funktionieren einer Marktwirtschaft beiträgt |
+| 08.12.2025 | VWL: Externe Effekte und die Umweltpolitik |
+| 11.12.2025 | Test |
+
 
 
 ## Beurteilung
@@ -62,5 +63,6 @@ sich unter dem GitHub-Logo
 ![](octocat_klein.png) 
 in der Kopfzeile).
 
-Falls jemand eine persönliche Besprechung wünscht, [kann er sich hier für
-eine Sprechstunde anmelden](https://calendar.app.google/kPthfpWed3uPP1cC6).
+Falls jemand eine persönliche Besprechung wünscht, 
+<a href="https://calendar.app.google/XdTippvkrbHJct3Y9" target="_blank">
+kann er sich hier für eine Sprechstunde anmelden<a>.
