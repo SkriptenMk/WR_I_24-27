@@ -37,3 +37,5 @@ parts:
         - file: recht/vertragsrecht/vertragsabschluss.md
         - file: recht/vertragsrecht/gewaehrleistung.md
         - file: recht/vertragsrecht/verzug.md
+    - caption: vergangene Semester
+      - file: archiv/programme.md
