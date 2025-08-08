@@ -39,4 +39,5 @@ parts:
         - file: recht/vertragsrecht/verzug.md
     - caption: vergangene Semester
       chapters:
-      - file: archiv/programme.md
+      - file: archiv/fs_2025.md
+        title: Frühlingssemester 2025
