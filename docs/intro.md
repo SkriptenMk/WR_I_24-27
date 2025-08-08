@@ -2,7 +2,10 @@
 
 In diesem Repository sollen ergänzende Unterlagen für das Fach WR in der Klasse
 1I zusammengetragen werden. Die bisherigen Unterlagen sind
-[hier verlinkt](https://wr-i-24-27.github.io/Skript/).
+<a href="https://wr-i-24-27.github.io/Skript/">Hier finden Sie die
+Unterlagen aus dem ersten Semester</a>. Die Unterlagen für das zweite
+Semester
+sind hier zu finden.
 
 ## Programm
 
