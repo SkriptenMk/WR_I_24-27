@@ -17,12 +17,13 @@ parts:
         - file: organisation/250331/aufgaben.ipynb
           title: Aufgaben
       - file: organisation/250403/prozesse.md
-        title: Prozessdarstellung mit TikZ
-      - file: organisation/250407/zeitplan.md
-      - file: organisation/250407/scrum/scrum.md
-        title: Scrum
-      - file: organisation/250414/lernziele.md
-        title: Lernziele 14. April 25
+        title: Projetkmanagement
+        sections:
+        - file: organisation/250407/zeitplan.md
+        - file: organisation/250407/scrum/scrum.md
+          title: Scrum
+      - file: bwl/marketing/250818_einf.md
+        title: Marketing
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md

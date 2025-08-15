@@ -1,4 +1,4 @@
-# Darstellung von Prozessen als Flussidagramm
+# Darstellung von Prozessen als Flussidagramm mit Hilfe von TikZ
 
 Das folgende Listing zeigt ein schematisches Beispiel für die Darstellung eines
 Flussdiagramms mit Hilfe von TikZ.
