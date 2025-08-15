@@ -24,6 +24,8 @@ parts:
           title: Scrum
       - file: bwl/marketing/250818_einf.md
         title: Marketing
+        sections:
+        - file: bwl/marketing/250821_produktpolitik.md
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
