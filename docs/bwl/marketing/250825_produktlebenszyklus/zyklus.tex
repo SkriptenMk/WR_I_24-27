@@ -8,7 +8,7 @@
 \begin{tikzpicture}
     % --- Achsen ---
     % X-Achse (Zeit)
-    \draw[->] (0,0) -- (13,0) node[right] {Zeit};
+    \draw[->] (0,0) -- (15,0) node[right] {Zeit};
     % Y-Achse (Umsatz/Gewinn)
     \draw[->] (0,-1.5) -- (0,6.5) node[above] {Umsatz/Gewinn};
 
@@ -22,34 +22,34 @@
     \node[above] at (6.5,6) {Reife};
     \draw[dashed, gray] (10.5,0) -- (10.5,6);
     \node[above] at (9.25,6) {Sättigung};
-    \node[above] at (11.75,6) {Degeneration};
+    \node[above] at (12.75,6) {Degeneration};
 
     % --- Kurvenverläufe ---
-    % Umsatzkurve (blau) mit geglättetem Plot
+    % Umsatzkurve (blau) mit geglättetem Plot inkl. Degeneration
     \draw[blue, thick] plot[smooth, tension=0.7] coordinates {
-        (0, 0.5) (2.5, 2.5) (5, 5) (8, 5.5) (10.5, 4) (12, 2)
+        (0, 0.5) (2.5, 2.5) (5, 5) (8, 5.5) (10.5, 4) (13.5, 1.5)
     };
-    \node[blue, right] at (12, 2) {Umsatz};
+    \node[blue, right] at (13.5, 1.5) {Umsatz};
 
-    % Gewinnkurve (rot) mit geglättetem Plot
+    % Gewinnkurve (rot) mit geglättetem Plot inkl. Degeneration
     \draw[red, thick] plot[smooth, tension=0.7] coordinates {
-        (0.5, 0) (1.5, -0.5) (4, 3) (7, 3.5) (10.5, 1) (12, -1)
+        (0.5, 0) (1.5, -0.5) (4, 3) (7, 3.5) (10.5, 1) (13.5, -1)
     };
-    \node[red, right] at (12, -1) {Gewinn};
+    \node[red, right] at (13.5, -1) {Gewinn};
     
-    % --- Relaunch-Kurven ---
+    % --- Relaunch-Kurven (S-förmig), startet vor Ende der Sättigung ---
     % Relaunch Umsatz (blau, gestrichelt)
-    \draw[blue, thick, dashed] plot[smooth, tension=0.8] coordinates {
-        (10.5, 4) (11.75, 5) (12.75, 5.25)
+    \draw[blue, thick, dashed] plot[smooth, tension=0.7] coordinates {
+        (10, 4.6) (11, 4.8) (12.5, 5.8) (14.5, 6)
     };
 
     % Relaunch Gewinn (rot, gestrichelt)
-    \draw[red, thick, dashed] plot[smooth, tension=0.8] coordinates {
-        (10.5, 1) (11.75, 2.25) (12.75, 2.5)
+    \draw[red, thick, dashed] plot[smooth, tension=0.7] coordinates {
+        (10, 1.5) (11, 1.7) (12.5, 3.2) (14.5, 3.7)
     };
     
     % Beschriftung für Relaunch
-    \node at (12, 4) {Relaunch};
+    \node at (12, 5) {Relaunch};
 \end{tikzpicture}
 
 \end{document}

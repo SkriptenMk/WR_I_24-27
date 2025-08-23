@@ -26,6 +26,8 @@ parts:
         title: Marketing
         sections:
         - file: bwl/marketing/250821_produktpolitik.md
+        - file: bwl/marketing/250825_produktlebenszyklus/250825_produktlebenszyklus.md
+          title: Produktlebenszyklus
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md

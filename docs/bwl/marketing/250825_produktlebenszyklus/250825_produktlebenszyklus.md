@@ -38,33 +38,7 @@ Phasen des Produktlebenszyklus.
 
 Die folgende Grafik veranschaulicht den typischen Verlauf von Umsatz und Gewinn über den Produktlebenszyklus.
 
-\begin{tikzpicture}
-    \draw[->] (0,0) -- (12,0) node[right] {Zeit};
-    \draw[->] (0,0) -- (0,6) node[above] {Umsatz/Gewinn};
-
-    % Phasen
-    \draw[dashed] (2.5,0) -- (2.5,5.5);
-    \node[above] at (1.25,5.5) {Einführung};
-    \draw[dashed] (5,0) -- (5,5.5);
-    \node[above] at (3.75,5.5) {Wachstum};
-    \draw[dashed] (8,0) -- (8,5.5);
-    \node[above] at (6.5,5.5) {Reife};
-    \draw[dashed] (10,0) -- (10,5.5);
-    \node[above] at (9,5.5) {Sättigung};
-    \node[above] at (11,5.5) {Degeneration};
-
-    % Umsatzkurve (blau)
-    \draw[blue, thick, label=Umsatz] (0,0.5) .. controls (1.5,1) and (3,4) .. (5,5) .. controls (7,6) and (8,5) .. (10,4.5) .. controls (11,3) .. (11.5, 2);
-    \node[blue, right] at (11.5, 2) {Umsatz};
-
-    % Gewinnkurve (rot)
-    \draw[red, thick, label=Gewinn] (0,0) .. controls (1.5,-1) and (2.5,0) .. (4,3) .. controls (6,4) and (8,2) .. (10,1) .. controls (11,-0.5) .. (11.5, -1);
-    \node[red, right] at (11.5, -1) {Gewinn};
-    
-    % Relaunch (grün)
-    \draw[green, thick, dashed, label=Relaunch] (9,1.5) .. controls (10,2.5) and (11,3.5) .. (12,4);
-    \node[green, above] at (11,4.2) {Relaunch};
-\end{tikzpicture}
+![Graphische Darstellung des Produktlebenszyklus](zyklus.svg)
 
 ## Die einzelnen Phasen im Detail
 
