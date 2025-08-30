@@ -28,6 +28,8 @@ parts:
         - file: bwl/marketing/250821_produktpolitik.md
         - file: bwl/marketing/250825_produktlebenszyklus/250825_produktlebenszyklus.md
           title: Produktlebenszyklus
+        - file: bwl/marketing/preiselastizitaet.ipynb
+          title: Konditionenpolitik
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
