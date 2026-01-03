@@ -62,5 +62,5 @@ sich unter dem GitHub-Logo
 in der Kopfzeile).
 
 Falls jemand eine persönliche Besprechung wünscht, 
-<a href="https://calendar.app.google/XdTippvkrbHJct3Y9" target="_blank">
+<a href="https://calendar.app.google/UynTL5ttVPHhK1Hc8" target="_blank">
 kann er sich hier für eine Sprechstunde anmelden<a>.
