@@ -30,6 +30,8 @@ parts:
           title: Produktlebenszyklus
         - file: bwl/marketing/preiselastizitaet.ipynb
           title: Konditionenpolitik
+      - file: bwl/finanzierung/260105_finanzierung.ipynb
+        title: Finanzierung
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
