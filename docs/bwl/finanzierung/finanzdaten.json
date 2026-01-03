@@ -1,0 +1,23 @@
+{
+  "bilanz_2024": {
+    "aktiven": {
+      "fluessige_mittel": 4539913,
+      "umlaufvermoegen_rest": 3957701,
+      "anlagevermoegen": 75139206
+    },
+    "passiven": {
+      "kurzfr_fremdkapital_verzinslich": 2000000,
+      "kurzfr_fremdkapital_unverzinslich": 9180965,
+      "langfr_fremdkapital_verzinslich": 20000000,
+      "langfr_fremdkapital_unverzinslich": 1535000,
+      "eigenkapital": 50920855
+    }
+  },
+  "erfolgsrechnung_2024": {
+    "nettoerloes": 37465481,
+    "ebitda": 12265882,
+    "ebit": 7315705,
+    "finanzaufwand": 521143,
+    "jahresgewinn": 6940132
+  }
+}
