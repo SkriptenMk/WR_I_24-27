@@ -1,0 +1,835 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Scrum - Eine illustrierte Einführung &#8212; Unterlagen für den WR-Unterricht in der Klasse 1I</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'organisation/250407/scrum/scrum';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Marketing" href="../../../bwl/marketing/250818_einf.html" />
+    <link rel="prev" title="Zeitplan" href="../zeitplan.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../_static/logo.png" class="logo__image only-light" alt="Unterlagen für den WR-Unterricht in der Klasse 1I - Home"/>
+    <script>document.write(`<img src="../../../_static/logo.png" class="logo__image only-dark" alt="Unterlagen für den WR-Unterricht in der Klasse 1I - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../../intro.html">
+                    Unterlagen für den WR-Unterricht
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">BWL</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../organigramm.html">Aufbauorganisation</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../aufgaben.html">Aufgaben</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../ablauforganisation.html">Ablauforganisation</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../250331/aufgaben.html">Aufgaben</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../250403/prozesse.html">Projetkmanagement</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../zeitplan.html">Zeitplan</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Scrum</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../bwl/marketing/250818_einf.html">Marketing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../bwl/marketing/250821_produktpolitik.html">Produktpolitik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../bwl/marketing/250825_produktlebenszyklus/250825_produktlebenszyklus.html">Produktlebenszyklus</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Recht</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../recht/personenrecht/einfuehrung.html">Personenrecht</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../recht/personenrecht/natuerliche_personen.html">Die natürlichen Personen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../recht/personenrecht/handlungsfaehigkeit.html">Die Handlungsfähigkeit natürlicher Personen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../recht/personenrecht/juristische_personen.html">Die juristischen Personen</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../recht/vertragsrecht/obligationen_entstehung.html">Vertragsrecht</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../recht/vertragsrecht/vertragsabschluss.html">Vertragsabschluss</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../../../recht/vertragsrecht/gewaehrleistung.html">Pflichten des Verkäufers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../recht/vertragsrecht/verzug.html">Der Verzug</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/SkriptenMk/WR_I_24-27" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/SkriptenMk/WR_I_24-27/issues/new?title=Issue%20on%20page%20%2Forganisation/250407/scrum/scrum.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/organisation/250407/scrum/scrum.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Scrum - Eine illustrierte Einführung</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#von-wasserfall-zu-agile">Von Wasserfall zu Agile</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#agiles-manifest">Agiles Manifest</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scrum">Scrum</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grundsatzliche-vorgehensweise">Grundsätzliche Vorgehensweise</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ablauf-eines-sprints">Ablauf eines Sprints</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#die-rollen-im-scrum-prozess">Die Rollen im Scrum-Prozess</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#user-stories-und-story-points">User Stories und Story Points</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hilfsmittel-zur-steuerung">Hilfsmittel zur Steuerung</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vorteile-von-scrum">Vorteile von Scrum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#herausforderungen-bei-der-einfuhrung-von-scrum">Herausforderungen bei der Einführung von Scrum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fazit">Fazit</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="scrum-eine-illustrierte-einfuhrung">
+<h1>Scrum - Eine illustrierte Einführung<a class="headerlink" href="#scrum-eine-illustrierte-einfuhrung" title="Link to this heading">#</a></h1>
+<section id="von-wasserfall-zu-agile">
+<h2>Von Wasserfall zu Agile<a class="headerlink" href="#von-wasserfall-zu-agile" title="Link to this heading">#</a></h2>
+<p>Traditionellerweise werden Projekte nach dem Wasserfall-Modell geplant und umgesetzt. In diesem Modell wird das Projekt in die Phasen Problemanalyse, Planung, Umsetzung und Evaluation unterteilt. Diese Phasen werden eine nach der anderen durchlaufen. Diese Vorgehensweise hat den Nachteil, dass es schwierig ist, auf Änderungen zu reagieren. Dies ist insbesondere in der Softwareentwicklung ein Problem. Oft erkennen Kunden erst während der Entwicklung, was für Anforderungen sie an das Produkt haben.</p>
+<p><strong>Wasserfall-Modell:</strong></p>
+<ol class="arabic simple">
+<li><p>Sequentielle Phasen</p></li>
+<li><p>Wenig Flexibilität bei Änderungen</p></li>
+<li><p>Gesamte Planung im Voraus</p></li>
+<li><p>Lange Zeit bis zur Fertigstellung</p></li>
+<li><p>Feedback erst am Ende des Projekts</p></li>
+</ol>
+<p>Diese Problematik hat im Software Engineering zu Agilen Methoden geführt. Die Kernprinzipien Agiler Methoden wurden im Agilen Manifest festgehalten.</p>
+</section>
+<section id="agiles-manifest">
+<h2>Agiles Manifest<a class="headerlink" href="#agiles-manifest" title="Link to this heading">#</a></h2>
+<blockquote>
+<div><p>Wir erschließen bessere Wege, Software zu entwickeln,
+indem wir es selbst tun und anderen dabei helfen.
+Durch diese Tätigkeit haben wir diese Werte zu schätzen gelernt:</p>
+<p><strong>Individuen und Interaktionen</strong> mehr als Prozesse und Werkzeuge<br />
+<strong>Funktionierende Software</strong> mehr als umfassende Dokumentation<br />
+<strong>Zusammenarbeit mit dem Kunden</strong> mehr als Vertragsverhandlung<br />
+<strong>Reagieren auf Veränderung</strong> mehr als das Befolgen eines Plans</p>
+<p>Das heisst, obwohl wir die Werte auf der rechten Seite wichtig finden,
+schätzen wir die Werte auf der linken Seite höher ein.<a class="footnote-reference brackets" href="#id2" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p>
+</div></blockquote>
+<p>Das Agile Manifest wurde 2001 von 17 Softwareentwicklern verfasst und hat
+seitdem die Art und Weise, wie Software entwickelt wird, grundlegend verändert.
+Neben den vier Werten definiert das Agile Manifest auch zwölf Prinzipien, die
+agile Teams leiten sollen:</p>
+<ol class="arabic simple">
+<li><p>Kundenzufriedenheit durch frühe und kontinuierliche Auslieferung von wertvoller Software</p></li>
+<li><p>Willkommenheissen von Anforderungsänderungen, selbst spät in der Entwicklung</p></li>
+<li><p>Häufige Auslieferung funktionierender Software (Wochen statt Monate)</p></li>
+<li><p>Tägliche Zusammenarbeit von Fachexperten und Entwicklern</p></li>
+<li><p>Aufbau von Projekten um motivierte Individuen</p></li>
+<li><p>Bevorzugung von direkter Kommunikation</p></li>
+<li><p>Funktionsfähige Software als wichtigstes Fortschrittsmass</p></li>
+<li><p>Förderung nachhaltiger Entwicklung durch gleichbleibendes Tempo</p></li>
+<li><p>Kontinuierliche Aufmerksamkeit für technische Exzellenz und gutes Design</p></li>
+<li><p>Einfachheit – die Kunst, die Menge nicht getaner Arbeit zu maximieren</p></li>
+<li><p>Selbstorganisierende Teams</p></li>
+<li><p>Regelmässige Reflexion und Anpassung der Arbeitsweise</p></li>
+</ol>
+</section>
+<section id="scrum">
+<h2>Scrum<a class="headerlink" href="#scrum" title="Link to this heading">#</a></h2>
+<p>Scrum ist eine der beliebtesten agilen Techniken.<br />
+Sie wurde erstmals von Hirotaka Takeuchi und Ikujiro Nonaka 1986 unter dem Titel
+„The New New Product Development Game” in der Harvard Business Review
+vorgestellt.</p>
+<p>Der Name “Scrum” stammt aus dem Rugby und beschreibt dort eine Spielsituation, in der das Team eng zusammenarbeitet, um den Ball wieder ins Spiel zu bringen. Diese Metapher verdeutlicht den kollaborativen Charakter der Methode.</p>
+<p><img alt="Scrum Framework Übersicht" src="../../../_images/scrum-diagram.svg" /></p>
+<section id="grundsatzliche-vorgehensweise">
+<h3>Grundsätzliche Vorgehensweise<a class="headerlink" href="#grundsatzliche-vorgehensweise" title="Link to this heading">#</a></h3>
+<p>Scrum verfolgt einen iterativen und inkrementellen Ansatz zur Softwareentwicklung. Statt das gesamte Projekt von Anfang bis Ende durchzuplanen, wird die Entwicklung in kurze Zeitabschnitte (Sprints) unterteilt, in denen jeweils ein funktionierendes, wenn auch unvollständiges, Produkt steht.</p>
+<p>Im Zentrum des Scrum-Prozesses steht das <strong>Product Backlog</strong>. Es enthält alle Anforderungen, Features und Verbesserungen, die für das Produkt umgesetzt werden sollen. Diese werden als User Stories formuliert, die aus Kundensicht beschreiben, welche Funktionalität gewünscht wird. Beispiel: “Als Benutzer möchte ich mich anmelden können, um auf mein Konto zuzugreifen.”</p>
+<p>Das Product Backlog wird vom Product Owner gepflegt und nach Prioritäten geordnet. Der Product Owner ist der Vertreter des Kunden im Projekt. Die wichtigsten Aspekte sind:</p>
+<ul class="simple">
+<li><p><strong>Priorisierung</strong>: Die wichtigsten Items stehen oben und werden zuerst bearbeitet</p></li>
+<li><p><strong>Detaillierung</strong>: Je höher die Priorität, desto ausführlicher ist die Beschreibung</p></li>
+<li><p><strong>Flexibilität</strong>: Das Backlog kann jederzeit angepasst werden, wenn sich Anforderungen ändern</p></li>
+<li><p><strong>Transparenz</strong>: Alle Teammitglieder haben Einblick in das Backlog</p></li>
+</ul>
+<p>Zu Beginn jedes Sprints wählt das Team die Items mit der höchsten Priorität aus dem Product Backlog aus und überführt sie in das Sprint Backlog. Das Sprint Backlog enthält die konkreten Aufgaben, die während des Sprints umgesetzt werden sollen.</p>
+<p>Die grundlegenden Prinzipien von Scrum sind:</p>
+<ul class="simple">
+<li><p><strong>Transparenz</strong>: Alle wichtigen Aspekte des Prozesses sind sichtbar</p></li>
+<li><p><strong>Überprüfung</strong>: Regelmässige Inspektion der Ergebnisse und des Prozesses</p></li>
+<li><p><strong>Anpassung</strong>: Kontinuierliche Verbesserung basierend auf den Erkenntnissen</p></li>
+</ul>
+</section>
+<section id="ablauf-eines-sprints">
+<h3>Ablauf eines Sprints<a class="headerlink" href="#ablauf-eines-sprints" title="Link to this heading">#</a></h3>
+<p>Ein Sprint ist ein Zeitraum von 1 bis 4 Wochen, in dem ein Teil des Projektes
+umgesetzt wird. Am Ende eines Sprints steht eine funktionsfähige Version des
+Produktes. Der Sprint kann in vier Elemente unterteilt werden (die vier blauen
+Kreise in der Grafik):</p>
+<p><img alt="Der Sprint-Zyklus" src="../../../_images/scrum-sprint-cycle.svg" /></p>
+<ul class="simple">
+<li><p><strong>Sprint-Planung</strong>: In der Sprint-Planung wird festgelegt, welche Aufgaben im Sprint umgesetzt werden sollen. Der Product Owner stellt die Aufgaben vor und das Team entscheidet, welche Aufgaben im Sprint umgesetzt werden.</p>
+<ul>
+<li><p>Zeitrahmen: Typischerweise 2-4 Stunden für einen zweiwöchigen Sprint</p></li>
+<li><p>Ergebnis: Sprint-Ziel und Sprint Backlog</p></li>
+<li><p>Teilnehmer: Scrum Master, Product Owner, Entwicklungsteam</p></li>
+</ul>
+</li>
+<li><p><strong>Sprint</strong>: In der Sprint-Phase wird das Sprint Backlog abgearbeitet. Das Team arbeitet an den Aufgaben, die in der Sprint-Planung festgelegt wurden. Am Ende des Sprints steht eine funktionsfähige Version des Produktes.</p>
+<ul>
+<li><p>Zeitrahmen: 1-4 Wochen (konstante Länge)</p></li>
+<li><p>Fokus auf das Sprint-Ziel</p></li>
+<li><p>Keine Änderungen, die das Sprint-Ziel gefährden</p></li>
+</ul>
+</li>
+<li><p><strong>Daily Scrum</strong> (Daily Standup): Das Daily Scrum ist ein tägliches Meeting von maximal 15 Minuten, bei dem jedes Teammitglied berichtet, was es seit dem letzten Meeting getan hat, was es als nächstes tun wird und welche Hindernisse es dabei gibt. Es dient der Koordination innerhalb des Teams.</p>
+<ul>
+<li><p>Drei Schlüsselfragen:</p>
+<ol class="arabic simple">
+<li><p>Was habe ich gestern getan, um das Sprint-Ziel zu erreichen?</p></li>
+<li><p>Was werde ich heute tun, um das Sprint-Ziel zu erreichen?</p></li>
+<li><p>Gibt es Hindernisse, die mich oder das Team blockieren?</p></li>
+</ol>
+</li>
+<li><p>Stehend durchgeführt, um die Kürze zu gewährleisten</p></li>
+<li><p>Gleiche Zeit, gleicher Ort jeden Tag</p></li>
+</ul>
+</li>
+<li><p><strong>Sprint Review und Retrospektive</strong>: Nach Abschluss des Sprints wird das Ergebnis im Sprint Review dem Product Owner und ggf. weiteren Stakeholdern präsentiert. In der Retrospektive analysiert das Team den vergangenen Sprint und identifiziert Verbesserungspotenziale für zukünftige Sprints.</p>
+<ul>
+<li><p><strong>Sprint Review</strong>:</p>
+<ul>
+<li><p>Zeitrahmen: 1 Stunde pro Sprintwoche</p></li>
+<li><p>Informelle Präsentation des erreichten Inkrements</p></li>
+<li><p>Feedback von Stakeholdern</p></li>
+<li><p>Aktualisierung des Product Backlogs</p></li>
+</ul>
+</li>
+<li><p><strong>Sprint Retrospektive</strong>:</p>
+<ul>
+<li><p>Zeitrahmen: 45 Minuten bis 1,5 Stunden</p></li>
+<li><p>Fokus auf Prozessverbesserung</p></li>
+<li><p>Drei Hauptfragen:</p>
+<ol class="arabic simple">
+<li><p>Was lief gut im Sprint?</p></li>
+<li><p>Was könnte verbessert werden?</p></li>
+<li><p>Welche Massnahmen werden wir im nächsten Sprint umsetzen?</p></li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="die-rollen-im-scrum-prozess">
+<h3>Die Rollen im Scrum-Prozess<a class="headerlink" href="#die-rollen-im-scrum-prozess" title="Link to this heading">#</a></h3>
+<p>Im Scrum-Framework gibt es drei klar definierte Rollen, die zusammen das Scrum-Team bilden:</p>
+<ul class="simple">
+<li><p><strong>Product Owner</strong>:</p>
+<ul>
+<li><p>Vertreter der Kundenperspektive und Stakeholder</p></li>
+<li><p>Verantwortlich für die Maximierung des Produktwerts</p></li>
+<li><p>Hauptaufgaben:</p>
+<ul>
+<li><p>Pflege und Priorisierung des Product Backlogs</p></li>
+<li><p>Klare Kommunikation der Produktvision</p></li>
+<li><p>Festlegung von Anforderungen und Akzeptanzkriterien</p></li>
+<li><p>Abnahme der fertigen Funktionalitäten</p></li>
+<li><p>Entscheidung über Release-Termine und -Inhalte</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Scrum Master</strong>: Der Scrum Master fungiert als <em>Servant Leader</em> für das Team und die Organisation.<br />
+Seine Hauptaufgaben umfassen:</p>
+<ul>
+<li><p>Moderation der Scrum-Events (Daily Scrum, Sprint Planning, Review, Retrospektive)</p></li>
+<li><p>Beseitigung von Hindernissen, die das Team bei der Arbeit behindern</p></li>
+<li><p>Coaching des Teams in Selbstorganisation und funktionsübergreifender Zusammenarbeit</p></li>
+<li><p>Schaffung eines produktiven Umfelds für hohe Wertschöpfung</p></li>
+<li><p>Abschirmung des Teams vor externen Störungen und Ablenkungen</p></li>
+<li><p>Förderung von Veränderungen, die die Produktivität des Teams erhöhen</p></li>
+</ul>
+</li>
+<li><p><strong>Entwicklungsteam</strong>: Das Entwicklungsteam hat folgende Eigenschaften:</p>
+<ul>
+<li><p>Besteht typischerweise aus 3-9 Personen (optimale Größe für Zusammenarbeit)</p></li>
+<li><p>Ist selbstorganisierend - das Team entscheidet selbst, wie es die Arbeit erledigt</p></li>
+<li><p>Kennt keine Hierarchie oder spezielle Titel innerhalb des Teams</p></li>
+<li><p>Trägt als Ganzes die Verantwortung für das Produktinkrement</p></li>
+<li><p>Arbeitet gemeinsam an den Sprint-Aufgaben</p></li>
+<li><p>Passt seine Arbeitsweise kontinuierlich an die Herausforderungen im Projekt an</p></li>
+<li><p>Interdisziplinär - vereint alle notwendigen Fähigkeiten zur Produktentwicklung</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="user-stories-und-story-points">
+<h3>User Stories und Story Points<a class="headerlink" href="#user-stories-und-story-points" title="Link to this heading">#</a></h3>
+<p>User Stories sind ein zentrales Element in Scrum und dienen dazu, Anforderungen aus Nutzerperspektive zu formulieren:</p>
+<ul class="simple">
+<li><p><strong>Format</strong>: “Als [Rolle] möchte ich [Funktion/Feature], damit [Nutzen/Wert]”</p></li>
+<li><p><strong>INVEST-Kriterien</strong> für gute User Stories:</p>
+<ul>
+<li><p><strong>I</strong>ndependent (Unabhängig)</p></li>
+<li><p><strong>N</strong>egotiable (Verhandelbar)</p></li>
+<li><p><strong>V</strong>aluable (Wertvoll)</p></li>
+<li><p><strong>E</strong>stimable (Schätzbar)</p></li>
+<li><p><strong>S</strong>mall (Klein)</p></li>
+<li><p><strong>T</strong>estable (Testbar)</p></li>
+</ul>
+</li>
+</ul>
+<p>Zur Abschätzung des Arbeitsaufwands für User Stories werden häufig <strong>Story Points</strong> verwendet:</p>
+<ul class="simple">
+<li><p>Relative Masseinheit für Komplexität, Aufwand und Risiko</p></li>
+<li><p>Werden oft mit Fibonacci-Zahlen ausgedrückt (1, 2, 3, 5, 8, 13, 21…)</p></li>
+<li><p>Vorteile:</p>
+<ul>
+<li><p>Vermeidet die Probleme von Zeitschätzungen</p></li>
+<li><p>Berücksichtigt unterschiedliche Geschwindigkeiten von Teammitgliedern</p></li>
+<li><p>Fokussiert auf Komplexität statt Zeit</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="hilfsmittel-zur-steuerung">
+<h3>Hilfsmittel zur Steuerung<a class="headerlink" href="#hilfsmittel-zur-steuerung" title="Link to this heading">#</a></h3>
+<p>Zur Überwachung des Projektfortschritts können verschiedene Werkzeuge eingesetzt werden:</p>
+<ul class="simple">
+<li><p><strong>Scrum Board</strong>: Ein physisches oder digitales Board, auf dem die Aufgaben visualisiert werden. Es zeigt den aktuellen Status der Aufgaben (To Do, In Progress, Done).</p></li>
+</ul>
+<p><img alt="Scrum Board" src="../../../_images/scrum-board.svg" /></p>
+<ul class="simple">
+<li><p><strong>Burndown Chart</strong>: Ein Diagramm, das den verbleibenden Aufwand im Sprint darstellt. Es zeigt, wie viel Arbeit noch zu erledigen ist und ob das Team im Zeitplan liegt.</p></li>
+</ul>
+<p><img alt="Burndown Chart" src="../../../_images/burndown-chart.svg" /></p>
+<ul class="simple">
+<li><p><strong>Velocity</strong>: Eine Kennzahl, die angibt, wie viel Arbeit das Team in einem Sprint erledigt hat. Sie wird in Story Points gemessen und hilft, die Kapazität des Teams für zukünftige Sprints abzuschätzen.</p></li>
+</ul>
+<p><img alt="Velocity Chart" src="../../../_images/velocity-chart.svg" /></p>
+<ul class="simple">
+<li><p><strong>Definition of Done</strong>: Eine Checkliste von Kriterien, die erfüllt sein müssen, bevor eine User Story als abgeschlossen betrachtet werden kann:</p>
+<ul>
+<li><p>Code wurde überprüft (Code Review)</p></li>
+<li><p>Tests wurden geschrieben und bestanden</p></li>
+<li><p>Dokumentation wurde aktualisiert</p></li>
+<li><p>Akzeptanzkriterien wurden erfüllt</p></li>
+<li><p>Product Owner hat die Funktionalität abgenommen</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="vorteile-von-scrum">
+<h3>Vorteile von Scrum<a class="headerlink" href="#vorteile-von-scrum" title="Link to this heading">#</a></h3>
+<p>Scrum bietet zahlreiche Vorteile gegenüber traditionellen Entwicklungsmethoden:</p>
+<ol class="arabic simple">
+<li><p><strong>Erhöhte Transparenz</strong>: Durch regelmässige Meetings und sichtbare Artefakte ist der Projektfortschritt für alle Beteiligten klar erkennbar.</p></li>
+<li><p><strong>Schnelleres Feedback</strong>: Durch die regelmässige Auslieferung funktionierender Software können Kunden frühzeitig Feedback geben.</p></li>
+<li><p><strong>Höhere Qualität</strong>: Kontinuierliche Integration, häufige Tests und die Definition of Done fördern die Qualität des Produkts.</p></li>
+<li><p><strong>Bessere Vorhersagbarkeit</strong>: Die Velocity ermöglicht genauere Vorhersagen über den Projektfortschritt.</p></li>
+<li><p><strong>Höhere Motivation</strong>: Selbstorganisation und regelmässige Erfolge steigern die Motivation im Team.</p></li>
+<li><p><strong>Risikominimierung</strong>: Probleme werden frühzeitig erkannt und können behandelt werden, bevor sie kritisch werden.</p></li>
+<li><p><strong>Anpassungsfähigkeit</strong>: Änderungen können ohne grossen Aufwand in das Projekt integriert werden.</p></li>
+</ol>
+</section>
+<section id="herausforderungen-bei-der-einfuhrung-von-scrum">
+<h3>Herausforderungen bei der Einführung von Scrum<a class="headerlink" href="#herausforderungen-bei-der-einfuhrung-von-scrum" title="Link to this heading">#</a></h3>
+<p>Die Umstellung auf Scrum kann mit verschiedenen Herausforderungen verbunden sein:</p>
+<ol class="arabic simple">
+<li><p><strong>Kultureller Wandel</strong>: Agile Methoden erfordern oft einen Kulturwandel in der Organisation.</p></li>
+<li><p><strong>Fehlendes Verständnis</strong>: Scrum wird manchmal falsch verstanden oder unvollständig implementiert.</p></li>
+<li><p><strong>Unklare Rollen</strong>: Die Rollen und Verantwortlichkeiten in Scrum müssen klar definiert sein.</p></li>
+<li><p><strong>Integration mit bestehenden Strukturen</strong>: Die Integration von Scrum in bestehende Unternehmensstrukturen kann herausfordernd sein.</p></li>
+</ol>
+</section>
+<section id="fazit">
+<h3>Fazit<a class="headerlink" href="#fazit" title="Link to this heading">#</a></h3>
+<p>Scrum hat sich als effektive Methode für die agile Softwareentwicklung etabliert und wird zunehmend auch in anderen Branchen eingesetzt. Die Kombination aus klaren Rollen, definierten Events und hilfreichen Artefakten bietet einen strukturierten Rahmen, der gleichzeitig Flexibilität ermöglicht.</p>
+<p>Die iterative Herangehensweise mit kurzen Feedback-Zyklen ermöglicht eine kontinuierliche Anpassung an veränderte Anforderungen und eine frühzeitige Wertschöpfung. Gleichzeitig fördert Scrum die Zusammenarbeit im Team und mit dem Kunden.</p>
+<p>Für eine erfolgreiche Implementierung von Scrum ist es wichtig, die Grundprinzipien zu verstehen und konsequent anzuwenden, gleichzeitig aber auch die Methode an die spezifischen Bedürfnisse der Organisation anzupassen.</p>
+<hr class="footnotes docutils" />
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id2" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://agilemanifesto.org/iso/de/manifesto.html">Agiles Manifest</a>, https://agilemanifesto.org/iso/de/manifesto.html, besucht am 4. April 2025</p>
+</aside>
+</aside>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./organisation\250407\scrum"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../zeitplan.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Zeitplan</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../../bwl/marketing/250818_einf.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Marketing</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#von-wasserfall-zu-agile">Von Wasserfall zu Agile</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#agiles-manifest">Agiles Manifest</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scrum">Scrum</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grundsatzliche-vorgehensweise">Grundsätzliche Vorgehensweise</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ablauf-eines-sprints">Ablauf eines Sprints</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#die-rollen-im-scrum-prozess">Die Rollen im Scrum-Prozess</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#user-stories-und-story-points">User Stories und Story Points</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hilfsmittel-zur-steuerung">Hilfsmittel zur Steuerung</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vorteile-von-scrum">Vorteile von Scrum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#herausforderungen-bei-der-einfuhrung-von-scrum">Herausforderungen bei der Einführung von Scrum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fazit">Fazit</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Jacques Mock Schindler
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
