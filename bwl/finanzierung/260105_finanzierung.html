@@ -598,12 +598,28 @@ Spalten enthält.</p>
 <h4>Aufgabe D2: Berechnung von Kennzahlen (Feature Engineering)<a class="headerlink" href="#aufgabe-d2-berechnung-von-kennzahlen-feature-engineering" title="Link to this heading">#</a></h4>
 <p>Erweitern Sie das DataFrame (oder schreiben Sie eine Funktion), um
 folgende Kennzahlen (Ratios) automatisch zu berechnen:</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">eigenkapitalquote</span></code> (in %)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">anlagedeckungsgrad_2</span></code> (in %)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">verschuldungsfaktor</span></code> (Nettoverschuldung / EBITDA)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">roe</span></code> (Return on Equity in %)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">roi</span></code> (Return on Investment / Gesamtkapitalrendite in %)</p></li>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">eigenkapitalquote</span></code> (in %)</p>
+<p><span class="math notranslate nohighlight">\(\text{Eigenkapitalquote} =
+\frac{\text{Eigenkapital}}{\text{Gesamtkapital}} \times 100\)</span></p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">anlagedeckungsgrad_2</span></code> (in %)</p>
+<p><span class="math notranslate nohighlight">\(\text{Anlagedeckungsgrad 2} = \frac{\text{EK}+\text{langfr.
+FK}}{\text{AV}} \times 100\)</span></p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">verschuldungsfaktor</span></code> (Nettoverschuldung / EBITDA)</p>
+<p><span class="math notranslate nohighlight">\(\text{Verschuldungsfaktor} =
+\frac{\text{Effektivverschuldung}}{\text{Cashflow}}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\text{Effektivverschuldung} = \text{FK} - \text{liquide Mittel} - \text{Forderungen}\)</span></p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">roe</span></code> (Return on Equity in %)</p>
+<p><span class="math notranslate nohighlight">\(\text{Eigenkapitalrentabiliaet} = \frac{\text{Gewinn}}{\text{EK}}
+\times 100\)</span></p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">roi</span></code> (Return on Investment / Gesamtkapitalrendite in %)</p>
+<p><span class="math notranslate nohighlight">\(\text{Gesamtkapitalrentabilitaet} =
+\frac{\text{EBIT}}{\text{Gesamtkapital}} \times 100\)</span></p>
+</li>
 </ul>
 </section>
 </section>
