@@ -14,10 +14,12 @@
     }
   },
   "erfolgsrechnung_2024": {
-    "nettoerloes": 37465481,
-    "ebitda": 12265882,
-    "ebit": 7315705,
-    "finanzaufwand": 521143,
-    "jahresgewinn": 6940132
+    "er": {
+      "nettoerloes": 37465481,
+      "ebitda": 12265882,
+      "ebit": 7315705,
+      "finanzaufwand": 521143,
+      "jahresgewinn": 6940132
+    }
   }
 }
