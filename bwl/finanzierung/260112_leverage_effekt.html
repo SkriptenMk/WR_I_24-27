@@ -59,9 +59,11 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"tex": {"packages": {"[+]": ["ams"]}}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}, "loader": {"load": ["[tex]/ams"]}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'bwl/finanzierung/260112_leverage_effet';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'bwl/finanzierung/260112_leverage_effekt';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Personenrecht" href="../../recht/personenrecht/einfuehrung.html" />
+    <link rel="prev" title="Fallstudie Rigibahn" href="260105_finanzierung.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -124,8 +126,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -182,7 +182,7 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">BWL</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../organisation/organigramm.html">Aufbauorganisation</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../organisation/aufgaben.html">Aufgaben</a></li>
 </ul>
@@ -202,7 +202,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../marketing/preiselastizitaet.html">Konditionenpolitik</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="260105_finanzierung.html">Finanzierung</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="260105_finanzierung.html">Finanzierung</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Belastbarkeitstest</a></li>
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Recht</span></p>
 <ul class="nav bd-sidenav">
@@ -290,7 +293,7 @@
       
       
       
-      <li><a href="https://github.com/SkriptenMk/WR_I_24-27/issues/new?title=Issue%20on%20page%20%2Fbwl/finanzierung/260112_leverage_effet.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/SkriptenMk/WR_I_24-27/issues/new?title=Issue%20on%20page%20%2Fbwl/finanzierung/260112_leverage_effekt.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -320,7 +323,7 @@
       
       
       
-      <li><a href="../../_sources/bwl/finanzierung/260112_leverage_effet.ipynb" target="_blank"
+      <li><a href="../../_sources/bwl/finanzierung/260112_leverage_effekt.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -422,7 +425,17 @@ document.write(`
 Effekt die Rendite des Eigenkapitals beeinflusst und wie wichtig die
 Prognose der Entwicklung des Zinsniveaus ist.</p>
 <p>Um die Auswirkung des Leverage Effekts im Allgemeinen zu zeigen, ist die Eigenkapitalrentabilität (<span class="math notranslate nohighlight">\(\frac{\text{Gewinn}}{\text{EK}}\times 100\)</span>) in Abhängigkeit von der Gesamtkapitalrentabilität (<span class="math notranslate nohighlight">\(\frac{\text{EBIT}}{\text{GK}}\times 100\)</span>) und des Finanzierungsverhältnisses (<span class="math notranslate nohighlight">\(\frac{\text{FK}}{\text{EK}}\)</span>) Darzustellen.</p>
-<p>Um dies zu Bewerkstelligen ist das CSV <code class="docutils literal notranslate"><span class="pre">[260112_data.csv](260112_data.csv)</span></code> als Pandas DataFrame in dieses Jupyter Notebook zu lesen. Der so erstellte DataFrame ist um die Spalten <code class="docutils literal notranslate"><span class="pre">RoI</span></code>, Fremdkapitalzinssatz <code class="docutils literal notranslate"><span class="pre">FKZS</span></code>, <code class="docutils literal notranslate"><span class="pre">Gewinn</span></code> und <code class="docutils literal notranslate"><span class="pre">RoE</span></code> zu ergänzen. Dabei kann der RoE konstant auf 7.5% gesetzt werden. Für den Fremdkapitalzinssatz und die davon abhängigen Grössen sind Varianten für 5% und für 10% zu berechnen.</p>
+<p>Um dies zu Bewerkstelligen ist das CSV
+<a
+href="https://raw.githubusercontent.com/SkriptenMk/WR_I_24-27/refs/heads/main/docs/bwl/finanzierung/260112_data.csv"
+download="260112_data.csv">
+<code class="docutils literal notranslate"><span class="pre">260112_data.csv</span></code>
+</a> als Pandas DataFrame in dieses
+Jupyter Notebook zu lesen. Der so erstellte DataFrame ist um die Spalten
+<code class="docutils literal notranslate"><span class="pre">RoI</span></code>, Fremdkapitalzinssatz <code class="docutils literal notranslate"><span class="pre">FKZS</span></code>, <code class="docutils literal notranslate"><span class="pre">Gewinn</span></code> und <code class="docutils literal notranslate"><span class="pre">RoE</span></code> zu ergänzen.
+Dabei kann der RoE konstant auf 7.5% gesetzt werden. Für den
+Fremdkapitalzinssatz und die davon abhängigen Grössen sind Varianten für
+5% und für 10% zu berechnen.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># TODO: Erstellen der Datengrundlage</span>
@@ -450,16 +463,16 @@ Prognose der Entwicklung des Zinsniveaus ist.</p>
         },
         codeMirrorConfig: {
             theme: "abcdef",
-            mode: "i_24-27"
+            mode: "python"
         },
         kernelOptions: {
-            name: "i_24-27",
+            name: "python3",
             path: "./bwl\finanzierung"
         },
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'i_24-27'</script>
+    <script>kernelName = 'python3'</script>
 
                 </article>
               
@@ -471,6 +484,24 @@ Prognose der Entwicklung des Zinsniveaus ist.</p>
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="260105_finanzierung.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Fallstudie Rigibahn</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../recht/personenrecht/einfuehrung.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Personenrecht</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
