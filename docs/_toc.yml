@@ -32,6 +32,8 @@ parts:
           title: Konditionenpolitik
       - file: bwl/finanzierung/260105_finanzierung.ipynb
         title: Finanzierung
+      - file: bwl/finanzierung/260112_leverage_effekt.ipynb
+        title: Belastbarkeitstest
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
