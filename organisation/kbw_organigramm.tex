@@ -1,0 +1,39 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{%
+                positioning, 
+                calc, 
+                decorations.pathreplacing,
+                }
+
+\begin{document}
+\tikzset{
+    stelle/.style={
+        draw,
+        rectangle
+        },
+    stabsstelle/.style={
+        stelle,
+        append after command={ 
+            (\tikzlastnode.north west) edge[double] (\tikzlastnode.south west)
+            }
+        }
+    }
+\begin{tikzpicture}
+    \node[stelle] (sl) {Schulleitung};
+    \node[stelle, below left=2cm and 2cm of sl] (gym) {Gymnasium};
+    \node[stelle, below=2cm  of sl] (hms) {HMS};
+    \node[stelle, below right=2cm and 2cm of sl] (ims) {IMS};
+
+    \node[below= 15mm of sl] (x) {};
+    \node[below= 7.5mm of sl] (y) {};
+
+    \node[stabsstelle, right = of y] (med) {Mediothek};
+
+    \draw (sl) edge (hms);
+    \draw (x.mid) -| (gym);
+    \draw (x.mid) -| (ims);
+    \draw ($(sl)!(med)!(x)$) edge (med);
+
+\end{tikzpicture}
+\end{document}

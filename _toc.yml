@@ -1,0 +1,54 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro.md
+parts:
+    - caption: BWL
+      chapters:
+      - file: organisation/organigramm.md
+        title: Aufbauorganisation
+        sections:
+        - file: organisation/aufgaben.ipynb
+          title: Aufgaben
+      - file: organisation/ablauforganisation.md
+        title: Ablauforganisation
+        sections:
+        - file: organisation/250331/aufgaben.ipynb
+          title: Aufgaben
+      - file: organisation/250403/prozesse.md
+        title: Projetkmanagement
+        sections:
+        - file: organisation/250407/zeitplan.md
+        - file: organisation/250407/scrum/scrum.md
+          title: Scrum
+      - file: bwl/marketing/250818_einf.md
+        title: Marketing
+        sections:
+        - file: bwl/marketing/250821_produktpolitik.md
+        - file: bwl/marketing/250825_produktlebenszyklus/250825_produktlebenszyklus.md
+          title: Produktlebenszyklus
+        - file: bwl/marketing/preiselastizitaet.ipynb
+          title: Konditionenpolitik
+      - file: bwl/finanzierung/260105_finanzierung.ipynb
+        title: Finanzierung
+        sections:
+        - file: bwl/finanzierung/260112_leverage_effekt.ipynb
+          title: Belastbarkeitstest
+    - caption: Recht
+      chapters:
+      - file: recht/personenrecht/einfuehrung.md
+        title: Personenrecht
+        sections:
+        - file: recht/personenrecht/natuerliche_personen.md
+        - file: recht/personenrecht/handlungsfaehigkeit.md
+        - file: recht/personenrecht/juristische_personen.md
+      - file: recht/vertragsrecht/obligationen_entstehung.md
+        title: Vertragsrecht
+        sections:
+        - file: recht/vertragsrecht/vertragsabschluss.md
+        - file: recht/vertragsrecht/gewaehrleistung.md
+        - file: recht/vertragsrecht/verzug.md
+    - caption: vergangene Semester
+      chapters:
+      - file: archiv/fs_2025.md
