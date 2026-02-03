@@ -30,6 +30,9 @@ jobs:
           pip install --upgrade pip
           # JupyterBook 1.x explizit installieren (nicht 2.x)
           pip install "jupyter-book<2"
+          pip install ipykernel
+          # Kernel mit dem Namen registrieren, den deine Notebooks erwarten
+          python -m ipykernel install --user --name i_24-27
           # Falls requirements.txt existiert
           if [ -f docs/requirements.txt ]; then
             pip install -r docs/requirements.txt
