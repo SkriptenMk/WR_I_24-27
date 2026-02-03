@@ -55,16 +55,9 @@ sowie der Benotung der mündlichen Beteiligung berechnet. Der
 Durchschnitt der Prüfungen zählt zu 90%, die mündliche Beteiligung zu
 10%.  
 
-Ich erwarte, dass Sie auf GitHub eine kurze Zusammenfassung zu jeder Lektion
-verfassen (mindestens ein Commit pro Lektion). Im Gegenzug können Sie via
-PullRequest eine Beurteilung Ihrer Zusammenfassung verlangen. Damit können Sie
-auf die jeweils folgende Prüfung eine Punktegutschrift erhalten. Die Gutschrift
-ist allerdings auf ein Maximum von einer Note beschränkt. Ausserdem können Sie
-Ihre Note verbessern, indem Sie konstruktive Kritik an den Unterlagen
+Sie können Ihre Note verbessern, indem Sie konstruktive Kritik an den Unterlagen
 einbringen. Dazu erstellen Sie ein mir zugewiesenes Issue (der Zugang findet
-sich unter dem GitHub-Logo
-![](octocat_klein.png) 
-in der Kopfzeile).
+sich unter dem GitHub-Logo ![](octocat_klein.png) in der Kopfzeile).
 
 Falls jemand eine persönliche Besprechung wünscht, 
 <a href="https://calendar.app.google/UynTL5ttVPHhK1Hc8" target="_blank">
