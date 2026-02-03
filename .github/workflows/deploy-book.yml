@@ -6,48 +6,60 @@ on:
       - main
 
 jobs:
-  deploy-book:
+  build:
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'  # Fixe Version für Stabilität
+
+      # Caching für schnellere Builds
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          # JupyterBook 1.x explizit installieren (nicht 2.x)
+          pip install "jupyter-book<2"
+          # Falls requirements.txt existiert
+          if [ -f docs/requirements.txt ]; then
+            pip install -r docs/requirements.txt
+          elif [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Build book
+        run: |
+          jupyter-book build docs/
+          touch docs/_build/html/.nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/_build/html'
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    
     permissions:
       pages: write
       id-token: write
-      contents: write
     
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     
-    concurrency:
-      group: pages
-      cancel-in-progress: false
-    
     steps:
-    - uses: actions/checkout@v4  # Aktualisiert auf v4
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4  # Aktualisiert auf v4
-      with:
-        python-version: '3.x'
-        
-    - name: Install dependencies
-      run: |
-        pip install jupyter-book
-        pip install ghp-import
-        
-    - name: Build book
-      run: |
-        cd docs
-        jupyter-book build .
-        touch _build/html/.nojekyll
-        
-    - name: Setup Pages
-      uses: actions/configure-pages@v4  # Aktualisiert auf v4
-        
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3  # Aktualisiert auf v3
-      with:
-        path: 'docs/_build/html'
-        
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4  # Aktualisiert auf v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
