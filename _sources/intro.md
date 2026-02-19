@@ -50,14 +50,16 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 
 ## Beurteilung
 
-Die Note wird aus dem Durchschnitt der beiden schriftlichen Prüfungen
-sowie der Benotung der mündlichen Beteiligung berechnet. Der
-Durchschnitt der Prüfungen zählt zu 90%, die mündliche Beteiligung zu
-10%.  
+Die Note wird aus dem Durchschnitt der Noten der drei schriftlichen
+Prüfungen sowie der Benotung der mündlichen Beteiligung berechnet. Der
+Durchschnitt der Noten der schriftlichen Prüfungen zählt zu 90%, die
+Note der mündliche Beteiligung zu 10%. Die so berechnete gewichtete
+Durchschnittsnote wird mathematisch auf halbe Noten gerundet.
 
-Sie können Ihre Note verbessern, indem Sie konstruktive Kritik an den Unterlagen
-einbringen. Dazu erstellen Sie ein mir zugewiesenes Issue (der Zugang findet
-sich unter dem GitHub-Logo ![](octocat_klein.png) in der Kopfzeile).
+Sie können Ihre Note verbessern, indem Sie konstruktive Kritik an den
+Unterlagen üben. Dazu erstellen Sie ein mir zugewiesenes Issue (der
+Zugang findet sich unter dem GitHub-Logo ![](octocat_klein.png) in der
+Kopfzeile).
 
 Falls jemand eine persönliche Besprechung wünscht, 
 <a href="https://calendar.app.google/UynTL5ttVPHhK1Hc8" target="_blank">
