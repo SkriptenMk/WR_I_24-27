@@ -35,6 +35,9 @@ parts:
         sections:
         - file: bwl/finanzierung/260112_leverage_effekt.ipynb
           title: Belastbarkeitstest
+    - caption: VWL
+      chapters:
+      - file: vwl/260219_anwendungsuebung.ipynb
     - caption: Recht
       chapters:
       - file: recht/personenrecht/einfuehrung.md
