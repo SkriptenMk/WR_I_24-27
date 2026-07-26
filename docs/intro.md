@@ -12,45 +12,31 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 
 | Datum | Thema |
 | ----- | ----- |
-| 16.02.2026 | Einführung Marktwirtschaft |
-| 19.02.2026 | Marktwirtschaft vertieft |
-| 26.02.2026 | Konsumenten- und Produzentenrente |
-| 02.03.2026 | Staatseingriffe - Höchst-/Mindestpreise |
-| 05.03.2026 | Rolle des Staates I |
-| 09.03.2026 | Marktversagen - Überblick |
-| 12.03.2026 | Externe Effekte & Umweltpolitik I |
-| 16.03.2026 | Externe Effekte & Umweltpolitik II |
-| 19.03.2026 | Klimapolitik & Einkommensverteilung |
-| 23.03.2026 | Einkommensverteilung & Umverteilung |
-| 26.03.2026 | Politische Ökonomie & VWL-Repetition |
-| 30.03.2026 | VWL-Prüfungsvorbereitung |
-| 02.04.2026 | LEISTUNGSNACHWEIS 1 |
-| 09.04.2026 | Einführung Arbeitsvertrag |
-| 13.04.2026 | Pflichten des Arbeitnehmers |
-| 16.04.2026 | Pflichten des Arbeitgebers |
-| 04.05.2026 | Arbeitnehmerschutz I |
-| 07.05.2026 | Arbeitnehmerschutz II & Kündigung |
-| 11.05.2026 | EAV/GAV - Kollektives Arbeitsrecht |
-| 18.05.2026 | Werkvertrag und Auftrag |
-| 21.05.2026 | Praktikumsvertrag & Recht-Repetition |
-| 28.05.2026 | LEISTUNGSNACHWEIS 2 |
-| 01.06.2026 | Einführung Personalmanagement |
-| 04.06.2026 | Personalbedarfsermittlung & Personalbeschaffung |
-| 08.06.2026 | Personaleinsatz & Arbeitsgestaltung |
-| 11.06.2026 | Personalmotivation & Lohnpolitik |
-| 15.06.2026 | Personalentwicklung & Freistellung |
-| 18.06.2026 | LEISTUNGSNACHWEIS 3 |
-| 22.06.2026 | Bewerbungsworkshop I |
-| 25.06.2026 | Bewerbungsworkshop II |
-| 29.06.2026 | Bewerbungsworkshop III |
-| 02.07.2026 | Bewerbungsworkshop IV |
-| 06.07.2026 | Puffer / Vertiefung |
-| 09.07.2026 | Semesterabschluss & Ausblick |
+| 20.08.2026 | Einstieg und Rechtsformwahl |
+| 27.08.2026 | Unternehmensformen: Einzelunternehmen und einfache Gesellschaft |
+| 03.09.2026 | Unternehmensformen: Aktiengesellschaft |
+| 10.09.2026 | Unternehmensformen: GmbH und Genossenschaft |
+| 17.09.2026 | Unternehmensformen: Vertiefung und Fälle |
+| 24.09.2026 | Prüfung 1: Unternehmensformen |
+| 22.10.2026 | Banken und Börse I: Bankgeschäfte |
+| 29.10.2026 | Banken und Börse II: Kreditarten |
+| 05.11.2026 | Banken und Börse III: Börse |
+| 12.11.2026 | Banken und Börse IV: Geldanlage |
+| 19.11.2026 | Banken und Börse V: Anwendung |
+| 26.11.2026 | Makroökonomie: Wirtschaftskreislauf |
+| 03.12.2026 | Makroökonomie: VGR und BIP |
+| 10.12.2026 | Makroökonomie: Wachstum |
+| 17.12.2026 | Makroökonomie: Konjunktur |
+| 07.01.2027 | Makroökonomie: Konjunkturpolitik |
+| 14.01.2027 | Makroökonomie: Verteilung |
+| 21.01.2027 | Prüfung 2: Banken und Börse, Makroökonomie 1 |
+| 28.01.2027 | Makroökonomie: Aktualitäten |
+| 04.02.2027 | Semesterabschluss |
 
 
 ## Beurteilung
 
-Die Note wird aus dem Durchschnitt der Noten der drei schriftlichen
+Die Note wird aus dem Durchschnitt der Noten der schriftlichen
 Prüfungen sowie der Benotung der mündlichen Beteiligung berechnet. Der
 Durchschnitt der Noten der schriftlichen Prüfungen zählt zu 90%, die
 Note der mündliche Beteiligung zu 10%. Die so berechnete gewichtete
