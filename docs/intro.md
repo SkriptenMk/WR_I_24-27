@@ -12,7 +12,26 @@ Das Programm entspricht dem aktuellen Stand der Planung. Es kann zu
 
 | Datum | Thema |
 | ----- | ----- |
-
+| 20.08.2026 | Einstieg und Rechtsformwahl |
+| 27.08.2026 | Unternehmensformen: Einzelunternehmen und einfache Gesellschaft |
+| 03.09.2026 | Unternehmensformen: Aktiengesellschaft |
+| 10.09.2026 | Unternehmensformen: GmbH und Genossenschaft |
+| 17.09.2026 | Unternehmensformen: Vertiefung und Fälle |
+| 24.09.2026 | Prüfung 1: Unternehmensformen |
+| 22.10.2026 | Banken und Börse I: Bankgeschäfte |
+| 29.10.2026 | Banken und Börse II: Kreditarten |
+| 05.11.2026 | Banken und Börse III: Börse |
+| 12.11.2026 | Banken und Börse IV: Geldanlage |
+| 19.11.2026 | Banken und Börse V: Anwendung |
+| 26.11.2026 | Makroökonomie: Wirtschaftskreislauf |
+| 03.12.2026 | Makroökonomie: VGR und BIP |
+| 10.12.2026 | Makroökonomie: Wachstum |
+| 17.12.2026 | Makroökonomie: Konjunktur |
+| 07.01.2027 | Makroökonomie: Konjunkturpolitik |
+| 14.01.2027 | Makroökonomie: Verteilung |
+| 21.01.2027 | Prüfung 2: Banken und Börse, Makroökonomie 1 |
+| 28.01.2027 | Makroökonomie: Aktualitäten |
+| 04.02.2027 | Semesterabschluss |
 
 
 ## Beurteilung
